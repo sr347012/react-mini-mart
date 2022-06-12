@@ -1,0 +1,24 @@
+{
+    "recommendation":[
+        {
+            "productID": "1001-1020-1202-1001",
+            "productName": "Milk",
+            "productType": "Milk Products",
+            "productPrice": "10"
+        },
+        {
+            "productID": "1001-1030-1202-1001",
+            "productName": "Honey",
+            "productType": "Vitamin supplements",
+            "productPrice": "50"
+        },
+        {
+            "productID": "1001-1040-1202-1001",
+            "productName": "Maggie Noodles",
+            "productType": "Eateries",
+            "productPrice": "40"
+        }
+
+
+    ]
+}

@@ -1,29 +1,25 @@
 import { render } from "@testing-library/react"
 import React, { useState } from "react"
 
-const OrdersList=({order})=>{
+const RecommendationList=({recommendation})=>{
     // const [order,setOrder] = useState();
     return (   
             <div className="OrderList" >
                 <li>
-                    {order.orderID}
+                    {recommendation.productID}
                 </li>
                 <li>
-                    {order.merchantID}
+                    {recommendation.productName}
                 </li>
                 <li>
-                    {order.orderState}
+                    {recommendation.productType}
                 </li>
                 <li>
-                    {order.items[0].price}
-                </li>
-                <li>
-                    {order.paymentType}
-                </li>
-              
+                    {recommendation.productPrice}
+                </li>              
 
             </div>
     )
 }
 
-export default OrdersList
+export default RecommendationList

@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+  color: white;
+  /* background-color: white; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,13 +17,27 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 15vh;
+}
+
+.App-footer {
+  position:absolute;
+  bottom:0%;
+  width: 100%;
+  background-color: #282c34;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 15vh;
 }
 
 .App-link {
@@ -35,4 +51,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+h3 {
+  display: flex;
+  align-items: flex-start;
+}
+.OrderList{
+  list-style: none;
+  display: flex;
+  border: 2px solid rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 70%;
+  margin: 2%;
+  padding: 2%;
+  align-items: center;
+  justify-content: space-around;
+}
+.OrderList-main{
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 2%;
+  padding: 2%;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
 }

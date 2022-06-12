@@ -1,0 +1,80 @@
+{
+    "orders":[
+        {
+            "orderID": "0001-0020-0202-2202",
+            "orderTime": "2020-05-24T05:06:00Z",
+            "orderState": "DELIVERED",
+            "orderType": "TakeAway",
+            "merchantID": "CYNGRUNGSBCCC",
+            "partnerMerchantID": "500",
+            "paymentType": "CASH",
+            "shortOrderNumber": "GF-123",
+            "cutlery": false,
+            "items": [
+                {
+                    "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
+                    "quantity": 1,
+                    "specifications": "less sugar and chili",
+                    "price": 2100
+                }
+            ]
+        },
+        {
+            "orderID": "0001-0020-0202-2202",
+            "orderTime": "2020-05-24T05:06:00Z",
+            "orderState": "DELIVERED",
+            "orderType": "TakeAway",
+            "merchantID": "CYNGRUNGSBCCC",
+            "partnerMerchantID": "500",
+            "paymentType": "CASH",
+            "shortOrderNumber": "GF-123",
+            "cutlery": false,
+            "items": [
+                {
+                    "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
+                    "quantity": 1,
+                    "specifications": "less sugar and chili",
+                    "price": 2100
+                }
+            ]
+        },
+        {
+            "orderID": "0002-0020-0202-2202",
+            "orderTime": "2020-06-24T05:06:00Z",
+            "orderState": "DELIVERED",
+            "orderType": "TakeAway",
+            "merchantID": "CYNGRUNGSBCCC",
+            "partnerMerchantID": "500",
+            "paymentType": "CASH",
+            "shortOrderNumber": "GF-124",
+            "cutlery": false,
+            "items": [
+                {
+                    "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
+                    "quantity": 1,
+                    "specifications": "less sugar ",
+                    "price": 2500
+                }
+            ]
+        },
+        {
+            "orderID": "0001-0040-0202-2202",
+            "orderTime": "2020-07-24T05:06:00Z",
+            "orderState": "PENDING",
+            "orderType": "TakeAway",
+            "merchantID": "CYNGRUNGSBCCC",
+            "partnerMerchantID": "500",
+            "paymentType": "CASH",
+            "shortOrderNumber": "GF-123",
+            "cutlery": false,
+            "items": [
+                {
+                    "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
+                    "quantity": 1,
+                    "specifications": "less sugar and chili",
+                    "price": 2100
+                }
+            ]
+        }
+    ]
+}

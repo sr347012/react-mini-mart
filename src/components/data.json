@@ -5,7 +5,7 @@
             "orderTime": "2020-05-24T05:06:00Z",
             "orderState": "DELIVERED",
             "orderType": "TakeAway",
-            "merchantID": "CYNGRUNGSBCCC",
+            "merchantID": "CYNGRUNGSBCCA",
             "partnerMerchantID": "500",
             "paymentType": "CASH",
             "shortOrderNumber": "GF-123",
@@ -24,7 +24,7 @@
             "orderTime": "2020-05-24T05:06:00Z",
             "orderState": "DELIVERED",
             "orderType": "TakeAway",
-            "merchantID": "CYNGRUNGSBCCC",
+            "merchantID": "CYNGRUNGSBCCB",
             "partnerMerchantID": "500",
             "paymentType": "CASH",
             "shortOrderNumber": "GF-123",
@@ -34,7 +34,7 @@
                     "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
                     "quantity": 1,
                     "specifications": "more sugar and chili",
-                    "price": 2100
+                    "price": 3100
                 }
             ]
         },
@@ -45,7 +45,7 @@
             "orderType": "TakeAway",
             "merchantID": "CYNGRUNGSBCCC",
             "partnerMerchantID": "500",
-            "paymentType": "CASH",
+            "paymentType": "CARD",
             "shortOrderNumber": "GF-124",
             "cutlery": false,
             "items": [
@@ -62,9 +62,9 @@
             "orderTime": "2020-07-24T05:06:00Z",
             "orderState": "PENDING",
             "orderType": "TakeAway",
-            "merchantID": "CYNGRUNGSBCCC",
+            "merchantID": "CYNGRUNGSBCCD",
             "partnerMerchantID": "500",
-            "paymentType": "CASH",
+            "paymentType": "CARD",
             "shortOrderNumber": "GF-123",
             "cutlery": false,
             "items": [
@@ -72,7 +72,7 @@
                     "id": "I:3bd13e4c-78e8-4b55-bf13-646b4a126db5:3d12c27b-dea5-4a0c-93db-f1ce93c982f9",
                     "quantity": 1,
                     "specifications": "less chili",
-                    "price": 2100
+                    "price": 1100
                 }
             ]
         }

@@ -10,14 +10,18 @@ const OrdersList=({order})=>{
                     {order.orderID}
                 </li>
                 <li>
+                    {order.merchantID}
+                </li>
+                <li>
                     {order.orderState}
                 </li>
                 <li>
                     {order.items[0].price}
                 </li>
                 <li>
-                    {order.items[0].specifications}
+                    {order.paymentType}
                 </li>
+              
 
             </div>
     )

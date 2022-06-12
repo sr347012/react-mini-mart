@@ -21,17 +21,21 @@ function App() {
       <div className="OrderList-main">
       <div className="OrderList">
                 <li>
-                    Name
+                    Invoice Id(Order#)
                 </li>
                 <li>
-                    Type
+                  Merchant Id
+                </li>
+                <li>
+                    Status
                 </li>
                 <li>
                     Price
                 </li>
                 <li>
-                  Specifications
+                  Payment
                 </li>
+
             </div>
       {ordersList.map((order)=> <OrdersList key ={order.orderID} order={order}/>)}
     </div>         
